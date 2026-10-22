@@ -11,10 +11,10 @@
 本仓库包含一个完整的高保真交互原型，在浏览器中直接打开即可查看所有页面。
 
 ```
-chronic-care-patient.html   # 全部 16 屏，单文件原型
+index.html   # 全部 16 屏，单文件原型
 ```
 
-> **在线预览**：下载后用 Chrome / Safari 打开，无需任何构建步骤。
+> **在线预览**：[panglezym.github.io/chronic-care-patient](https://panglezym.github.io/chronic-care-patient/)。也可以下载 `index.html` 用 Chrome / Safari 打开，无需任何构建步骤。
 
 ---
 
@@ -174,10 +174,10 @@ AI 对话时，系统自动将以下数据注入提示词：
 
 ```
 chronic-care-patient/
-├── chronic-care-patient.html   # 完整原型（单文件，116 KB）
-├── README.md
-└── docs/
-    └── 慢愈-PRD-v1.0.docx       # 完整产品需求文档（含数据模型/API规格）
+├── index.html          # 完整原型（单文件，116 KB）
+├── 慢愈-PRD-v1.pdf     # 完整产品需求文档（含数据模型/API规格）
+├── 慢愈-项目介绍.pdf     # 项目介绍
+└── README.md
 ```
 
 ---
@@ -187,7 +187,8 @@ chronic-care-patient/
 | 资源 | 说明 |
 |------|------|
 | [医生端仓库](https://github.com/panglezym/chronic-care-doctor) | 医生端 Web Portal 原型，9 个页面 |
-| 慢愈-PRD-v1.0.docx | 完整 PRD，含数据模型、AI引擎规格、版本规划 |
+| [慢愈-PRD-v1.pdf](%E6%85%A2%E6%84%88-PRD-v1.pdf) | 完整 PRD，含数据模型、AI引擎规格、版本规划 |
+| [慢愈-项目介绍.pdf](%E6%85%A2%E6%84%88-%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.pdf) | 项目介绍 |
 
 ---
 
@@ -231,7 +232,7 @@ AI 助手被设计为 FAB（悬浮操作按钮）而非独立 Tab，原因：
 
 ## 相关文档
 
-- `慢愈-PRD-v1.0.pdf` — 完整产品需求文档
+- `慢愈-PRD-v1.pdf` — 完整产品需求文档
   - 第三章：患者端所有 16 页功能规格
   - 第五章：数据模型与表结构
   - 第六章：AI 引擎规格与提示词架构
